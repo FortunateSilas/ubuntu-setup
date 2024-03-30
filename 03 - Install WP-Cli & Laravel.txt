@@ -1,0 +1,16 @@
+curl -O https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar
+
+chmod +x wp-cli.phar
+
+sudo mv wp-cli.phar /usr/local/bin/wp
+
+useful commands
+wp core download
+sudo mv wp-config-sample.php wp-config.php
+
+02. Laravel
+composer global require "laravel/installer"
+
+Useful Commands
+```````````````
+laravel new samplesite

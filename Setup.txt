@@ -1,0 +1,2 @@
+sudo apt install libcurl4-gnutls-dev libexpat1-dev gettext libz-dev libssl-dev cmake gcc build-essential
+# sudo apt install cmake gcc

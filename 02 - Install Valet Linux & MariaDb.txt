@@ -1,0 +1,32 @@
+composer global require cpriego/valet-linux
+
+.config/composer/vendor/bin
+
+sudo apt-get install network-manager libnss3-tools jq xsel
+
+sudo /etc/init.d/apache2 stop
+sudo apt remove apache2
+
+valet install
+valet domain local
+
+# cd to your prefered sites folder
+
+valet park
+valet secure # do this for every site, individually
+
+02. MariaDB (MySQL)
+sudo apt-get install mariadb-server
+sudo mysql -uroot
+use mysql;
+
+SELECT User, Host FROM mysql.user;
+mysql > DROP USER 'root'@'localhost';
+CREATE USER 'root'@'localhost' IDENTIFIED BY '';
+GRANT ALL PRIVILEGES ON *.* TO 'root'@'localhost' WITH GRANT OPTION;
+FLUSH PRIVILEGES;
+\q
+
+# Test
+mysql -uroot
+
