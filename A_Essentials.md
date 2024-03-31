@@ -7,7 +7,7 @@ sudo apt update && sudo apt upgrade
 
 # Install Supporting packages
 ```
-sudo apt install software-properties-common unzip tree libcurl4-gnutls-dev libexpat1-dev gettext libz-dev libssl-dev cmake gcc build-essential network-manager libnss3-tools jq xsel sed
+sudo apt-get install -y software-properties-common python-software-properties unzip tree libcurl4-gnutls-dev libexpat1-dev gettext libz-dev libssl-dev cmake gcc build-essential network-manager libnss3-tools jq xsel sed
 ```
 
 # Software Properties Common
