@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"name": "my",
+			"path": "../../../my"
+		},
+		{
+			"name": "__myzsh_old",
+			"path": "../../../Host 2/__myzsh_old"
+		},
+		{
+			"path": "../../../.oh-my-zsh/custom"
+		}
+	],
+	"settings": {}
+}

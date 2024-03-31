@@ -8,7 +8,7 @@ sudo /etc/init.d/apache2 stop
 sudo apt remove apache2
 
 valet install
-valet domain local
+valet domain www
 
 # cd to your prefered sites folder
 
@@ -29,4 +29,3 @@ FLUSH PRIVILEGES;
 
 # Test
 mysql -uroot
-

@@ -1,4 +1,4 @@
-sudo apt-get install php php8.1-curl php-mbstring php8.1-mcrypt php-xml php-zip php-mysqli
+sudo apt-get install php php-curl php-mbstring php-mcrypt php-xml php-zip php-mysqli php-bcmath php-posix
 
 ###############################################
 
@@ -29,10 +29,6 @@ curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash
 
 nvm install --lts
 
-sudo apt-get install -y build-essential
-
 sudo apt autoremove
 
 wget https://www.phpmyadmin.net/downloads/phpMyAdmin-latest-all-languages.zip
-
-php-mysqli
