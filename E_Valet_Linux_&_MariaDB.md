@@ -4,6 +4,7 @@
 
 which apache2
 
+#### Stop, then remove Apache2
 sudo /etc/init.d/apache2 stop
 sudo apt remove apache2
 
@@ -64,5 +65,7 @@ FLUSH PRIVILEGES;
 ```
 mysql -uroot
 ```
-# phpmyadmin
+## phpmyadmin
+```
 wget https://www.phpmyadmin.net/downloads/phpMyAdmin-latest-all-languages.zip
+```
