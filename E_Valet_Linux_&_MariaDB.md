@@ -64,3 +64,5 @@ FLUSH PRIVILEGES;
 ```
 mysql -uroot
 ```
+# phpmyadmin
+wget https://www.phpmyadmin.net/downloads/phpMyAdmin-latest-all-languages.zip
