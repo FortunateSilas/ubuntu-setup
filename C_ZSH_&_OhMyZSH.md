@@ -12,17 +12,17 @@ sudo apt install zsh
 chsh -s $(which zsh)
 ```
 
-### Log out and back in:
+##### Log out and back in
 
 ### Install Oh-My-ZSH
 
-with curl (Recommended)
+**with curl (Recommended)**
 
 ```
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 
-or with wget
+**or with wget**
 
 ```
 git clone https://github.com/ohmyzsh/ohmyzsh.git ~/.oh-my-zsh
