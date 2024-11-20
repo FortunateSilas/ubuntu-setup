@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Prerequisites.md",
+                "file": "01. Prerequisites.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Prerequisites"
+              "title": "01. Prerequisites"
             }
           }
         ],
@@ -187,6 +187,6 @@
   "active": "892f4cbda425dbe1",
   "lastOpenFiles": [
     "README.md",
-    "Prerequisites.md"
+    "01. Prerequisites.md"
   ]
 }
