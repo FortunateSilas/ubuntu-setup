@@ -34,9 +34,23 @@
               "icon": "lucide-file",
               "title": "01. Prerequisites"
             }
+          },
+          {
+            "id": "db4521acb54cd9af",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "02. Dev Essentials.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "02. Dev Essentials"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -184,9 +198,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "892f4cbda425dbe1",
+  "active": "db4521acb54cd9af",
   "lastOpenFiles": [
-    "README.md",
-    "01. Prerequisites.md"
+    "01. Prerequisites.md",
+    "02. Dev Essentials.md",
+    "README.md"
   ]
 }
